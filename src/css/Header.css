@@ -1,0 +1,16 @@
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  height: 150px
+}
+
+.App-title {
+  float: left;
+}
+
+.Lbp-logo {
+  height: 100px;
+  float: right;
+}
