@@ -3,14 +3,17 @@ import './css/Header.css';
 
 class NavItemChild extends Component {
     render() {
-        let children = this.props.children.map(string =>
-                <li>{string}</li>
+        let children = this.props.children.map(child =>
+                <li>{child}</li>
             );
 
         return (
-            <ul>
-                {children}
-            </ul>
+            <li>
+                {this.props.parentPage}
+                <ul>
+                    {children}
+                </ul>
+             </li>
         );
     }
 }
